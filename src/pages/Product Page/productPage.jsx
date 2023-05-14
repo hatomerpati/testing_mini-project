@@ -61,7 +61,7 @@ console.log(productData)
                       <div className="space">
                         
                     
-                        Rp:   <b>{item.productPrice}</b>
+                    
                         
                       </div>
                  

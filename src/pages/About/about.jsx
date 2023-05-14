@@ -16,39 +16,47 @@ const About = () => {
         </Row>
         <Row>
           <Text>
-            Welcome to Buket: Book Market, your go-to online marketplace for
-            selling books! At Buket, we understand the importance of books as a
-            gateway to knowledge, imagination, and personal growth. Our platform
-            aims to connect book enthusiasts who want to sell their books with
-            avid readers seeking new literary treasures.
-          </Text>
-          <Text><Title level={3}>Our Mission:</Title>  At Buket,
-            we envision a world where every book finds its rightful owner and
-            continues to inspire and educate. We strive to create an inclusive
-            community where people can easily sell their books while fostering a
-            love for reading and learning.</Text>
-          <Text><Title level={3}>Our Vision:</Title>  At Buket,
-           Our Mission: Our mission is to
-            provide a user-friendly and secure platform that empowers
-            individuals to sell their books hassle-free. We are dedicated to
-            creating a seamless experience for both book sellers and buyers,
-            promoting sustainable practices, and promoting the joy of reading.</Text>
-          <Text>
-            <Title level={3}>Why Choose Buket:</Title> Extensive Book Selection: Buket provides access to
-            a wide range of books across various genres, ensuring that both
-            sellers and buyers find what they're looking for. Safe and Secure
-            Transactions: We prioritize the security of our users. Our platform
-            utilizes encryption and secure payment gateways to safeguard your
-            personal and financial information. Supportive Community: Join our
-            vibrant community of book lovers and connect with like-minded
-            individuals who share your passion for literature. Engage in
-            discussions, share recommendations, and expand your literary
-            horizons. Seller Tools and Resources: Buket offers valuable
-            resources and guidance to help sellers optimize their listings,
-            attract buyers, and maximize their sales potential. Environmental
-            Consciousness: We encourage sustainable practices by promoting the
-            reuse and recycling of books. By selling your books on Buket, you
-            contribute to reducing waste and conserving resources.
+            Welcome to Yomu, a vibrant online community library where book
+            lovers from all around the world unite to celebrate the joy of
+            reading and share their literary creations. At Yomu, we believe that
+            everyone has a story to tell, and our platform empowers individuals
+            to showcase their unique voices and ideas through the written word.
+            As a member of Yomu, you have the opportunity to not only explore an
+            extensive collection of diverse books but also contribute to the
+            library by uploading your very own literary works. Whether you're an
+            aspiring author, a seasoned writer, or simply someone who enjoys
+            penning down their thoughts, Yomu provides a creative space for you
+            to share your stories with a global audience. Our library is a
+            treasure trove of literary genres, covering a wide range of subjects
+            to cater to all reading preferences. From captivating fiction to
+            thought-provoking non-fiction, from heartwarming poetry to
+            informative guides, Yomu has something for everyone. Discover new
+            worlds, immerse yourself in intriguing narratives, and connect with
+            fellow book enthusiasts who share your passion for the written word.
+            Yomu's intuitive and user-friendly interface makes it effortless to
+            navigate through the virtual shelves, where countless stories await
+            your exploration. You can search for books by genre, author, or even
+            by keywords, ensuring you find the perfect read that matches your
+            interests and curiosity. Leave reviews, engage in discussions, and
+            build connections with fellow readers, fostering a vibrant and
+            supportive community of literary enthusiasts. However, Yomu isn't
+            just about consuming literature; it's about creating it too. We
+            encourage you to unleash your imagination and share your literary
+            works with the world. Upload your own books, short stories, poems,
+            or any other form of written expression, and let your creativity
+            shine. Yomu provides you with a platform to receive feedback,
+            connect with readers who appreciate your style, and grow as a
+            writer. At Yomu, we value inclusivity, diversity, and the freedom of
+            expression. We celebrate writers from all walks of life, embracing
+            stories that reflect the rich tapestry of our global community. We
+            believe that by sharing our narratives, we foster understanding,
+            empathy, and bridge gaps between cultures and perspectives. Join
+            Yomu today and embark on a literary journey like no other. Immerse
+            yourself in a world of stories, connect with like-minded
+            individuals, and contribute to the ever-growing tapestry of human
+            creativity. Together, let's make Yomu a vibrant haven for all book
+            lovers and creators, where words have the power to inspire,
+            entertain, and transform lives.
           </Text>
         </Row>
       </Card>

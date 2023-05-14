@@ -8,36 +8,37 @@ const LandingPage = () => {
   const { Text } = Typography;
   return (
     <div className="div">
-      <Card style={{
-        height: "900px"
-      }}>
+      <Card
+        style={{
+          height: "900px",
+        }}
+      >
         <Row align="center">
-        <Title>Welcome to Buket: Book Market!!</Title>
+          <Title>Welcome to Buket: Book Market!!</Title>
         </Row>
-      
+
         <Row gutter={5} align="center">
-        <Image src={logo}></Image>
+          <Image src={logo}></Image>
         </Row>
         <Row gutter={5} align="center">
           <Text>
-            Welcome to Buket, where books find new homes. Sell your books with
-            ease and connect with passionate readers.<br></br> Join our community and
-            share the joy of literature. Happy selling and happy reading!
+            Welcome to Yomu, where words come alive! Dive into a universe of
+            stories, connect with fellow readers, and share your own literary
+            gems. Join our vibrant community library today and embark on a
+            thrilling journey through the power of words. Happy reading and
+            writing!
           </Text>
         </Row>
         <br></br>
         <Row gutter={5} align="center">
-        <Space>
-            <Link to="/product">
-            <Button type="primary" >Browse Products</Button>
+          <Space>
+            <Link to="/books">
+              <Button type="primary">Browse Books</Button>
             </Link>
-          <Link to="/add-product">
-
-          <Button >Sell Products</Button>
-
-          </Link>
-           
-        </Space>
+            <Link to="/add-books">
+              <Button>Upload Your Own Books</Button>
+            </Link>
+          </Space>
         </Row>
       </Card>
     </div>
