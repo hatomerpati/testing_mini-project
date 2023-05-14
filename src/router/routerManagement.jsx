@@ -14,8 +14,8 @@ const RouterManagement = () => {
         <LayoutComponent>
       <Routes>
       <Route path='/' element={<LandingPage/>} />
-      <Route path='/product' element={<ProductPage/>} />
-      <Route path='/add-product' element={<CrudPage/>} />
+      <Route path='/books' element={<ProductPage/>} />
+      <Route path='/add-books' element={<CrudPage/>} />
       <Route path='/about' element={<About/>} />
       </Routes>
       </LayoutComponent>

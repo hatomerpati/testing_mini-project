@@ -101,11 +101,7 @@ const CrudPage = () => {
       dataIndex: "productFresh",
       key: "productFresh",
     },
-    {
-      title: "Product Price",
-      dataIndex: "productPrice",
-      key: "productPrice",
-    },
+  
     {
         title: "Product Price",
         dataIndex: "wa",
@@ -234,7 +230,7 @@ const CrudPage = () => {
   return (
     <div className="div">
       <Card>
-        <Title>Form Jual Buku</Title>
+        <Title>Form Upload Buku</Title>
 
         {/* Form */}
         <Form
@@ -338,63 +334,8 @@ const CrudPage = () => {
             )}
           </Form.Item>
 
-          <Form.Item
-            name="productFresh"
-            label="Book Freshness"
-            rules={[
-              {
-                required: true,
-                message: "Please input your Book Freshness!",
-              },
-            ]}
-          >
-            <Select
-      defaultValue="New"
-      style={{
-        width: 120,
-      }}
-      options={[
-        {
-          value: 'New',
-          label: 'New',
-        },
-        {
-          value: 'Second-Hand',
-          label: 'Second-Hand',
-        },
-        {
-          value: 'Refurbished',
-          label: 'Refurbished',
-        },
-      ]}
-    />
-          </Form.Item>
-
-          <Form.Item
-            name="productPrice"
-            label="Book Price"
-            rules={[
-              {
-                required: true,
-                message: "Please input your Book Price!",
-              },
-            ]}
-          >
-            <Input placeholder="Input your Book Price" />
-          </Form.Item>
-          <Form.Item
-            name="wa"
-            label="Seller Phone"
-            rules={[
-              {
-                required: true,
-                message: "Please input your Phone Number!",
-              },
-            ]}
-          >
-            <Input placeholder="Input your Phone Number" />
-          </Form.Item>
-
+         
+        
           {isEdit ? (
             <Space>
               <Button
