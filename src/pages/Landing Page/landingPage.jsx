@@ -14,7 +14,7 @@ const LandingPage = () => {
         }}
       >
         <Row align="center">
-          <Title>Welcome to Buket: Book Market!!</Title>
+          <Title>Welcome to Yomu : Where word comes alive</Title>
         </Row>
 
         <Row gutter={5} align="center">
@@ -23,7 +23,7 @@ const LandingPage = () => {
         <Row gutter={5} align="center">
           <Text>
             Welcome to Yomu, where words come alive! Dive into a universe of
-            stories, connect with fellow readers, and share your own literary
+            stories, connect with fellow readers, <br></br> and share your own literary
             gems. Join our vibrant community library today and embark on a
             thrilling journey through the power of words. Happy reading and
             writing!
