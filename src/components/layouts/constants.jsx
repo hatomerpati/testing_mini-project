@@ -8,12 +8,12 @@ export const MENU_ITEM = [
     key: "/home",
   },
   {
-    label: <Link to="/product">Products</Link>,
-    key: "/product",
+    label: <Link to="/books">Books</Link>,
+    key: "/books",
   },
   {
-    label: <Link to="/add-product">Sell your books</Link>,
-    key: "/add-product",
+    label: <Link to="/add-books">Upload your books</Link>,
+    key: "/add-books",
   },
   {
     label: <Link to="/about">About US</Link>,

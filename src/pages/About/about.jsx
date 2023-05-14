@@ -14,7 +14,7 @@ const About = () => {
         <Row justify="center" align="center">
           <Image src={logo} width={300}></Image>
         </Row>
-        <Row>
+        <Row align="center">
           <Text>
             Welcome to Yomu, a vibrant online community library where book
             lovers from all around the world unite to celebrate the joy of
