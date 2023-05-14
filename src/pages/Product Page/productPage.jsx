@@ -69,9 +69,9 @@ console.log(productData)
               
                      <div>
                         <br></br>
-                        <Link to={item.wa}>
-                          <Button type="primary">Order</Button>
-                        </Link>
+                       
+                          <Button type="primary">Read</Button>
+                      
                         </div>
                     </Card>
               
