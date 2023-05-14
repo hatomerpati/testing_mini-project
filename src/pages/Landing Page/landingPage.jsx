@@ -32,7 +32,9 @@ const LandingPage = () => {
             <Button type="primary" >Browse Products</Button>
             </Link>
           <Link to="/add-product">
-          <Button >Sell Product</Button>
+
+          <Button >Sell Products</Button>
+
           </Link>
            
         </Space>
